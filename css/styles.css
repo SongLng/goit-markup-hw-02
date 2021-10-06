@@ -25,10 +25,6 @@ body {
   font-family: roboto, sans-serif;
 }
 
-ul {
-  list-style: none;
-}
-
 .list {
   list-style: none;
 }
@@ -102,9 +98,10 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
-/* Section */
+/* What do we do */
 
 .section-title {
   color: var(--title-text-color);
@@ -114,8 +111,15 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.section-title .list {
+  .section-title;
+}
 
 /* feature */
+
+.feature-list {
+  list-style-type: none;
+}
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -151,7 +155,15 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.staff {
+  list-style-type: none;
+}
+
 /* Portfolio */
+
+.filter {
+  list-style-type: none;
+}
 
 .filter-button {
   color: var(--title-text-color);
@@ -161,6 +173,12 @@ ul {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  color: var(--primary-background-color);
+  background-color: var(--accent);
 }
 
 .filter .current {
@@ -178,6 +196,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  list-style-type: none;
 }
 
 .portfolio-list .title {
@@ -207,6 +226,10 @@ ul {
 .footer .link:hover,
 .footer .link:focus {
   color: var(--accent);
+}
+
+.footer-list {
+  list-style-type: none;
 }
 
 /* address */
