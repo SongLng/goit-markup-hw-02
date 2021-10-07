@@ -47,6 +47,7 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -65,6 +66,7 @@ body {
 
 .contacts .link {
   color: var(--primary-text-color);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -91,7 +93,8 @@ body {
 .hero-button {
   color: var(--primary-background-color);
   background: var(--accent);
-  font-weight: bold;
+  font-family: Roboto;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -105,7 +108,7 @@ body {
 
 .section-title {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16px;
   text-align: center;
@@ -123,7 +126,7 @@ body {
 
 .feature-list .title {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -131,7 +134,7 @@ body {
 }
 
 .feature-list .description {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -168,6 +171,7 @@ body {
 .filter-button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -201,7 +205,7 @@ body {
 
 .portfolio-list .title {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -212,7 +216,7 @@ body {
 .footer .link {
   color: var(--primary-text-color);
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
@@ -237,7 +241,7 @@ body {
 .address {
   color: var(--primary-background-color);
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
